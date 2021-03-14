@@ -1,0 +1,120 @@
+﻿
+
+ 
+.service-area{
+    padding:150px 0;
+    background-image: url('../images/Restaurants.jpg');
+    background-attachment: fixed;
+    background-position: center;
+   background-repeat: no-repeat;
+   
+}
+.single-service{
+    height: 400px;
+    padding: 20px 15px;
+    width: 100%;
+    background: deepskyblue;
+    position: relative;
+    overflow: hidden;
+    transform: translateY(0) translatez(0);
+    transition: all .3s ease-in-out 0s;
+}
+.single-service .content{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+.single-service b{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: block;
+    border-radius: 50%;
+    transition: width 0.6s ease-in-out, height 0.6s ease-in-out;
+    width: 0;
+    height: 0;
+    transform: translate(-50%,-50%);
+    background: darkorange;
+    z-index:1;
+}
+.content h2{
+    text-transform: uppercase;
+    font-weight: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.content p{
+    color:#fff;
+}
+.single-service:hover b{
+    height: 600px;
+    width: 600px;
+}
+.icon-area{
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all .2s;
+   
+
+}
+.icon-area img{
+   max-width: 110px;
+ 
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px ;    
+    text-transform: uppercase;
+    color: deepskyblue;
+    background: #fff;
+    border-radius: 50px;
+    font-weight: 900;
+    text-decoration:none !important;
+}
+.single-service:hover a{
+    color: orange;
+    transition: .9s;
+}
+.single-service:hover .icon-area i{
+    color: darkorange;
+    transition: .9s;
+}
+.content a:hover{
+  color: chocolate;   
+}
+.single-service:hover .icon-area {
+   
+    transition:all .2s;
+}
+.description{
+    margin: 0 auto;
+    width: 80%;    
+    border-radius: 10px;
+    color: #111;
+    background-color: #fff;
+    width: 85%;
+    margin: auto;
+    padding:150px 0;
+   
+}
+.description p,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 50px;
+    font-family:  Poor Richard;
+    margin-bottom: 5px;
+}
+.description h2{
+    text-align: center;
+    line-height: 200px;
+    font-family:  Poor Richard;
+}
+#watch-video{
+    max-width: 135px;
+}
